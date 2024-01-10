@@ -43,10 +43,7 @@ function App() {
         </Routes>
       </main>
 
-      <footer className="footer">
-        <Footer />
-      </footer>
-
+      <Footer />
     </div>
   );
 }

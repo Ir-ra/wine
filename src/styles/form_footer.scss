@@ -1,0 +1,66 @@
+@import url('./_variables.scss');
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+  width: 100%;
+
+  &__input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  }
+  
+  &__mail {
+    display: flex;
+    padding-bottom: 9px;
+    line-height: 130%;
+    border-bottom: 2px solid var($gray-secondary);
+  
+    &::placeholder {
+      color: var($gray-secondary);
+      line-height: 130%;
+      font-size: 16px;
+    }
+  }
+  
+  &__warning {
+    display: flex;
+    position: absolute;
+    bottom: -17px;
+  }
+  
+  &__warning-error {
+    color: var($black-warn);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  
+  &__icon {
+    display: flex;
+    justify-content: flex-start;
+    width: 16px;
+    height: 16px;
+    background-image: url('../assets/icons/warning.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  &__button {
+    display: flex;
+    width: 100%;
+    padding: 12px 0;
+    justify-content: center;
+    border-radius: 40px;
+    background: var($black-secondary);
+    color: var($white);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+  }
+}
+

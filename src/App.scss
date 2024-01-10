@@ -1,8 +1,10 @@
 @import "./styles/reset.scss";
+@import "./styles/mixins";
+@import "./styles/fonts.scss";
 
 .App {
-  font-family: Mont, Helvetica, sans-serif;
-  font-weight: 500;
+  font-family: Mazzard, Helvetica, sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: black;
   min-height: 100vh;
@@ -14,6 +16,8 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+
+  background: #EFEFEF;
 }
 
 iframe {
