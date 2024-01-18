@@ -47,13 +47,14 @@
     }
   }
 
+
   &__divider {
     display: none;
 
     @include onDesktop {
       display: flex;
       height: 195px;
-      border-left: 1px solid var($gray-light);
+      border-left: 1px solid $gray-light;
       order: 2;
     }
   }
@@ -109,6 +110,7 @@
     text-align: center;
     font-size: 12px;
     line-height: 140%;
+    color: #000;
 
     @include onDesktop {
       font-size: 14px;

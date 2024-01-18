@@ -1,4 +1,4 @@
-@import url('./_variables.scss');
+@import './_variables.scss';
 
 .form {
   display: flex;
@@ -18,10 +18,11 @@
     display: flex;
     padding-bottom: 9px;
     line-height: 130%;
-    border-bottom: 2px solid var($gray-secondary);
+    border-bottom: 2px solid $gray-secondary;
+    // z-index: -1;
   
     &::placeholder {
-      color: var($gray-secondary);
+      color: $gray-secondary;
       line-height: 130%;
       font-size: 16px;
     }
@@ -34,7 +35,7 @@
   }
   
   &__warning-error {
-    color: var($black-warn);
+    color: $black-warn;
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
@@ -56,8 +57,8 @@
     padding: 12px 0;
     justify-content: center;
     border-radius: 40px;
-    background: var($black-secondary);
-    color: var($white);
+    background: $black-secondary;
+    color: $white;
     font-size: 18px;
     font-weight: 500;
     line-height: 140%;

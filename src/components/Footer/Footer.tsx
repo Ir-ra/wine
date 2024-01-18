@@ -108,7 +108,7 @@ export const Footer = () => {
           </nav>
         </div>
 
-        <div className="footer__info">
+        <div className="footer__info" id='contacts'>
           <p className="footer__title">
             Contact us
           </p>
